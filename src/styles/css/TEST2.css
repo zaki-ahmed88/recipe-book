@@ -1,0 +1,176 @@
+
+.a
+{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.b
+{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.c
+{
+    background-color: greenyellow;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.d
+{
+    background-color: cyan;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+/***************************/
+.shape h1
+{
+    border: 1px solid blueviolet;
+    border-bottom: 10px solid blueviolet;
+    width: 10%;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+
+.shape h1:after
+{
+    content: "";
+    width: 40px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    left: 20px;
+    top: 85%;
+}
+
+.shape h1::before
+{
+    content: "";
+    width: 5px;
+    height: 30px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 85%;
+    left: 40px;
+    z-index: 2;
+}
+/************************************/
+
+
+@keyframes cloud1
+{
+    from
+    {
+        background-color: #09c;
+    }
+    to
+    {
+        background-color: red;
+    }
+}
+
+@keyframes cloud1
+{
+    0%{left: -500px; top: 0px;}
+    100%{left: 2000px; top: 0px}
+}
+
+
+.cloud1
+{
+    width: 400px;
+    height: 200px;
+    background-color: #09c;
+    background-size: 100 100;
+    margin-top: 350px;
+    margin-left:20px; 
+    animation: cloud1 3s ease-in 1s infinite normal;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+ 
+
+
+/***********************************************************/
+
+.space
+{
+    width: 100px;
+    height: 450px;
+}
+
+
+.x
+{
+    width: 100px; 
+    height: 100px;
+    background-color: red;
+}
+
+.y
+{
+    margin: 100px;
+}
+/**********************************************/
+
+.me, .me2
+{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    padding: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.show-me, .show-me2
+{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: none;
+}
+/************************/
+
+.about-me
+{
+    background-color: #09c;
+    padding: 20px;
+    width: 200px;
+}
+
+/**************************************/
+
+#zz
+{
+    background-color: aqua;
+}
+/*****************************************/
+
+#f
+{
+    background-color: aliceblue;
+}

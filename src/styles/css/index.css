@@ -1,0 +1,16 @@
+
+#regform
+{
+	width:70%;
+	margin:50px auto;
+}
+
+#regform .alert-danger
+{
+	margin:5px;
+	display:none;
+}
+.addCirle
+{
+	padding:10px;
+}
